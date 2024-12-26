@@ -8,7 +8,8 @@ Then user should be on home page
 Scenario: Create new article
 Given User should be on New Article Page
 When User enters Article details
-|title|Desc|Content|tag|
+| title | Desc | Content | tags |
+| Test title | Test Desc | Content | Tag |
 Then Article must be created
 
 #Scenario: View Article
